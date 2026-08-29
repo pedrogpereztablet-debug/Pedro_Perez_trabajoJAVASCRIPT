@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Pedro G. Pérez M.</title>
+        <link rel="stylesheet" href="./CSS/estilos.css">
+        <link rel="icon" href="./favicon-16x16.ico" type="image/x-icon">
+        <script src="./js/noticiasjson.js" defer></script>
+    </head>
+    <body id="top">
+
+        <!-- *************************************************
+            CABECERA PRINCIPAL
+            ************************************************* -->            
+        <header>
+            <div>
+                <img src="./assets/img/imagenPGPM.png" alt="Logotipo personal de Pedro G. Pérez M." class="logo" >
+            </div>        
+            <div>
+                <h1>Pedro G. Pérez M.</h1>
+            </div>
+        </header>
+
+        <!-- *************************************************
+            MENÚ DE NAVEGACIÓN PRINCIPAL
+            ************************************************* -->
+        <nav class="navbar">        
+            <!-- Imagen decorativa-->
+            <img src="./assets/img/imagenPGPM.png" alt="Logotipo de Pedro G. Pérez M.">
+                    
+            <ul>
+                <li class="nav-desplegable">
+                    <a href="#top" class="activo">Inicio</a>
+
+        <!-- Submenú con enlaces a las secciones principales -->
+                    <ul class="subnav">
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#formacion">Formación</a></li>
+                        <li><a href="#noticias">Cursos</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                    </ul>
+                </li>            
+                <li><a href="./views/presupuesto.html">Presupuesto</a></li>
+                <li><a href="./views/galeriaP.html">Galería</a></li>
+                <li><a href="./views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- *************************************************
+             CONTENIDO PRINCIPAL DE LA PÁGINA
+             ************************************************* -->
+        <main>        
+            <!-- *************************************************
+                 1. SECCIÓN DE BIENVENIDA
+                 *************************************************-->        
+            <section class="bienvenida">
+                <h2>Bienvenido a mi Portafolio</h2>            
+                <!-- Contenedor visual del texto de bienvenida -->
+                <div class="contenido-bienvenida">
+                    <p>
+                        Soy Ingeniero Agrónomo y actualmente estudio Desarrollo Web.
+                        Me encuentro fortaleciendo mis conocimientos en HTML, CSS,
+                        JavaScript y otras tecnologías modernas para crear sitios y
+                        aplicaciones web dinámicas y responsivas.
+                    </p>
+                </div>
+            </section>        
+        
+            <!-- *************************************************
+                 2. SECCIÓN SOBRE MÍ
+                 ************************************************* -->
+
+            <section id="sobre-mi" class="about">
+                <h2>Sobre mí</h2>    
+
+                <div class="contenido-sobre-mi">
+                    <p>
+                        Ingeniero Agrónomo con especialización en Producción Animal.
+                        Cuento con experiencia en logística, liderazgo de equipos,
+                        ensamblaje y soldadura manual de componentes electrónicos,
+                        además de conocimientos en producción animal y procesos
+                        industriales. Me destaco por mi capacidad de adaptación,
+                        aprendizaje continuo y resolución de problemas. Actualmente
+                        me encuentro estudiando Desarrollo Web y orientando mi carrera
+                        hacia la creación de aplicaciones web modernas.
+                    </p>
+                </div>
+            </section>        
+        
+            <!-- *************************************************
+                 3. SECCIÓN DE EXPERIENCIA LABORAL
+                *************************************************-->
+
+            <section id="experiencia" class="experiencia">
+                <h2>Experiencia Laboral</h2>
+            
+                <article class="exp">
+                    <h3>Operador de ensamblaje electrónico y soldadura</h3>
+                    <time datetime="2023">2023</time> - <time datetime="2026">2026</time>
+                    <p>
+                        Ensamblaje y soldadura manual de componentes electrónicos,
+                        verificando la calidad y el correcto funcionamiento de los equipos.
+                    </p>
+                </article>
+            
+                <article class="exp">
+                    <h3>Operario General - Fastway Couriers</h3>
+                    <time datetime="2025">2025</time>
+                    <p>
+                        Recepción, clasificación, escaneo y organización de paquetes
+                        para su distribución, garantizando la trazabilidad y el
+                        cumplimiento de los tiempos de entrega.
+                    </p>
+                </article>
+            
+                <article class="exp">
+                    <h3>Operario de Producción Porcina</h3>
+                    <time datetime="2018">2018</time> - <time datetime="2021">2021</time>
+                    <p>
+                        Gestión de la producción porcina, incluyendo supervisión de
+                        partos, cuidado de lechones, bioseguridad, limpieza de
+                        instalaciones y control de tratamientos veterinarios.
+                    </p>
+                </article>
+            </section>
+        
+        
+            <!-- *************************************************
+                4. SECCIÓN DE FORMACIÓN ACADÉMICA
+                ************************************************* -->
+
+            <section id="formacion" class="education">
+                <h2>Formación Académica</h2>            
+                <!-- Formación individual como contenido independiente -->
+                <article>
+                    <h3>Ingeniero Agrónomo</h3>
+                    <p> Universidad Central de Venezuela
+                        <time datetime="2008">2008</time> - <time datetime="2014">2014</time>
+                    </p>
+                </article>
+            </section>     
+        
+            <section id="noticias" class="noticias">            
+                <h2>Últimas Certificaciones</h2>            
+                <div id="contenedorNoticias">
+                    <!-- Las certificaciones se insertan aquí mediante JS ,JSON -->
+                </div>
+            </section>       
+        
+            <!-- *************************************************
+                 6. SECCIÓN DE HABILIDADES
+                 ************************************************* -->
+            <section id="habilidades" class="skills">
+                <h2>Habilidades</h2>            
+                <div class="contenido-habilidades">  
+                                  
+                    <details>
+                        <summary>Desarrollo Web</summary>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </details>
+
+                    <details>
+                        <summary>Liderazgo de equipos</summary>
+                        <ul>
+                            <li>Supervisión de personal</li>
+                            <li>Organización de equipos</li>
+                        </ul>
+                    </details>
+                
+                    <details>
+                        <summary>Logística y almacén</summary>
+                        <ul>
+                            <li>Carga y descarga de camiones</li>
+                            <li>Preparación de pedidos</li>
+                            <li>Manejo de carretillas</li>
+                        </ul>
+                    </details>
+                
+                    <details>
+                        <summary>Soldadura electrónica</summary>
+                        <ul>
+                            <li>Soldadura manual</li>
+                            <li>Montaje de componentes electrónicos</li>
+                        </ul>
+                    </details>
+                
+                    <details>
+                        <summary>Conocimientos agropecuarios y animales de granja</summary>
+                        <ul>
+                            <li>Cuidado de cerdos y ganado</li>
+                            <li>Alimentación</li>
+                            <li>Vacunación</li>
+                            <li>Tratamientos básicos</li>
+                        </ul>
+                    </details>
+                
+                </div>
+            </section>
+        
+        </main>
+
+
+        <!-- *************************************************
+            PIE DE PÁGINA
+            ************************************************* -->
+
+        <footer id="footer">        
+        
+            <p>&copy; 2026 Pedro G. Pérez M. - Todos los derechos reservados</p>        
+            <!-- Enlaces a redes sociales -->
+            <div class="social-icons">            
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/fb.png" alt="Facebook">
+                </a>            
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/X-Logo.png" alt="X">
+                </a>            
+                <a  href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/images.jpeg" alt="Instagram">
+                </a>            
+            </div>    
+        
+            <!-- Enlaces de información y contacto -->
+
+            <a href="#">Aviso legal</a>
+            <a href="mailto:pedro@gmail.com">Correo</a>
+            <a href="tel:+353852222222">Llamadas</a>       
+        
+            <!-- Información adicional -->
+
+            <p>Ubicación: Cork, Irlanda</p>
+            <p>
+                <strong>Aviso legal:</strong>
+                Este sitio web tiene carácter personal y educativo. La información
+                publicada se proporciona únicamente con fines informativos y de
+                presentación profesional.
+            </p>
+        
+        </footer>
+
+    </body>
+</html>

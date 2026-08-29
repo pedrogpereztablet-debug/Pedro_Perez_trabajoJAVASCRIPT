@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/estilos.css">
+        <script src="../js/presupuesto.js" defer></script>
+        <link href="../favicon-16x16.ico" type="image/x-icon" rel="icon">
+        <title>Presupuesto</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo-header">
+            <!-- Logo personal class="logo" para CSS . -->
+                <img src="../assets/img/imagenPGPM.png" alt="Logo" class="logo">
+            </div>
+            <div> 
+                <h1>Pedro G. Pérez M.</h1> 
+            </div> 
+            <!-- class="navbar" para CSS-->
+            <nav class="navbar"> 
+                <img src="../assets/img/imagenPGPM.png" alt="Logo de Pedro G. Pérez M.">
+                <ul> 
+                    <li><a href="../index.html">Inicio</a></li>                
+                    <li><a href="./presupuesto.html" class="activo">Presupuesto</a></li> 
+                    <li><a href="./galeriaP.html">Galeria</a></li> 
+                    <li><a href="./contacto.html">Contacto</a></li> 
+                </ul> 
+            </nav> 
+        </header>
+
+        <!--- ******************* Primera Parte ******************* -->
+        <!--- ******************* Primera Parte ******************* -->
+
+        <main> 
+            <section class="contenedorFormulario">
+            
+                <h2>Solicitud de Presupuesto</h2>
+            
+                <form id="formulario" method="POST">
+                
+                    <article>
+                        <h3>Datos de Contacto</h3>
+                    
+                        <fieldset>
+                            <legend>Datos de Contacto</legend>
+                        
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" 
+                                   id="nombre" 
+                                   name="nombre"
+                                   placeholder="Nombre"
+                                   required>
+                        
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" 
+                                   id="apellido"
+                                   name="apellido"
+                                   placeholder="Apellido"
+                                   required>
+                        
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" 
+                                   id="telefono"
+                                   name="telefono"
+                                   placeholder="+34123456"
+                                   required>
+                        
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" 
+                                   id="email" 
+                                   name="email"
+                                   placeholder="ejemplo@dominio.com"
+                                   required>
+                        
+                            <label for="info">Detalles de trabajo a realizar:</label>
+                        
+                            <textarea id="info" 
+                                      maxlength="200"                                   
+                                      name="info" 
+                                      rows="10"
+                                      cols="50"></textarea>
+                        </fieldset>
+                    </article>
+                
+            <!--- ******************* 2 Parte ******************* -->
+            <!--- ******************* 2 Parte ******************* -->
+                
+                    <article>
+                        
+                        <h3>Presupuesto</h3>
+
+                        <fieldset>
+                            <legend>Presupuesto</legend>
+                        
+                            <label for="producto" class="resaltar">
+                                Producto:
+                            </label>
+                        
+                            <select id="producto" name="producto" required>
+                                <option value="">-- Selecciona un producto --</option>
+                                <option value="250">Página Web Básica - 250€</option>
+                                <option value="500">Soldadura MSD - 500€</option>
+                                <option value="1500">Visitas técnicas - 1500€</option>
+                            </select>
+                        
+                            <label for="plazo" class="resaltar">
+                                Plazo de entrega (días):
+                            </label>
+                        
+                            <input type="number" id="plazo" name="plazo" min="1" max="365" value="1" required>
+                        
+                            <p class="resaltar">Extras</p>  
+                        
+                            <label>
+                                <input type="checkbox" class="extra" value="50" name="extras">
+                                Viáticos (+50€)
+                            </label>
+                        
+                            <label>
+                                <input type="checkbox" class="extra" value="100" name="extras">
+                                Transporte (+100€)
+                            </label>
+                        
+                            <label>
+                                <input type="checkbox" class="extra" value="200" name="extras">
+                                Soporte Premium (+200€)
+                            </label>
+                        
+                            <label for="presupuestoFinal" class="resaltar">
+                                Presupuesto Final:
+                            </label>
+                        
+                            <input type="text" id="presupuestoFinal" readonly>
+                        </fieldset>
+                    
+                        <label>
+                            <input type="checkbox" id="condiciones" required>
+                            Acepto las condiciones de privacidad
+                        </label>
+                    
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </article>
+                
+                </form>
+            </section>
+        </main>    
+
+        <footer id="footer">   
+        
+            <p>&copy; 2026 Pedro G. Pérez M. - Todos los derechos reservados</p>        
+            <!-- Enlaces a redes sociales -->
+            <div class="social-icons">            
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/fb.png" alt="Facebook">
+                </a>            
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/X-Logo.png" alt="X">
+                </a>            
+                <a  href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/images.jpeg" alt="Instagram">
+                </a>            
+            </div>    
+        
+            <!-- Enlaces de información y contacto -->
+
+            <a href="#">Aviso legal</a>
+            <a href="mailto:pedro@gmail.com">Correo</a>
+            <a href="tel:+353852222222">Llamadas</a>       
+        
+            <!-- Información adicional -->
+                     
+            <p>Ubicación: Cork, Irlanda</p>
+            <p>
+                <strong>Aviso legal:</strong>
+                Este sitio web tiene carácter personal y educativo. La información
+                publicada se proporciona únicamente con fines informativos y de
+                presentación profesional.
+            </p>
+        
+        </footer>
+
+    </body>
+</html>

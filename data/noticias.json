@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Certificación de Carretilla Elevadora",
+    "fecha": "2026",
+    "imagen": "assets/img/Certificado1.png",
+    "categoria": "Certificación",
+    "descripcion": "Completé satisfactoriamente la certificación para el manejo de carretillas elevadoras Counterbalance y Reach Truck, fortaleciendo mis competencias en logística y almacén."
+  },
+  {
+    "id": 2,
+    "titulo": "Comienzo mi formación como Desarrollador Web",
+    "fecha": "2025",
+    "imagen": "assets/img/certificado2.png",
+    "categoria": "Desarrollo Web",
+    "descripcion": "Actualmente estudio HTML, CSS, JavaScript y desarrollo de aplicaciones web con el objetivo de dedicarme profesionalmente al desarrollo Front-End."
+  },
+  {
+    "id": 3,
+    "titulo": "Curso de Trazabilidad en la Industria Alimentaria",
+    "fecha": "2024",
+    "imagen": "assets/img/certificado3.png",
+    "categoria": "Curso",
+    "descripcion": "Finalicé un curso especializado sobre sistemas de trazabilidad en la industria alimentaria y control de procesos."
+  },
+  {
+    "id": 4,
+    "titulo": "Curso de Coctelería Profesional",
+    "fecha": "2023",
+    "imagen": "assets/img/certificado4.png",
+    "categoria": "Curso",
+    "descripcion": "Realicé un curso de 100 horas enfocado en preparación de bebidas, atención al cliente y trabajo en equipo."
+  },
+  {
+    "id": 5,
+    "titulo": "Uso eficiente del agua en el sector agrícola",
+    "fecha": "2022",
+    "imagen": "assets/img/certificado5.png",
+    "categoria": "Curso",
+    "descripcion": "Capacitación enfocada en la optimización del recurso hídrico y buenas prácticas agrícolas."
+  },
+  {
+    "id": 6,
+    "titulo": "Formación para soldadura electrónica SMD",
+    "fecha": "2022",
+    "imagen": "assets/img/certificado6.png",
+    "categoria": "Curso",
+    "descripcion": "Capacitación enfocada en formación para soldadura electrónica SMD y montaje de componentes electrónicos."
+  }
+]
